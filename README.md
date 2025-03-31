@@ -12,6 +12,8 @@
   - `wp-config.php` file has your credentials which are passed form `docker-compose.yml` file. (Sample file - `wp-config-sample.php`)
   - WordPress Version: Note I have set `wordpress:latest` in `docker-compose.yml` file and when I checked wordpress verison from admin panel (in site) I saw version as `6.7.2`
 
+## Running wordpress server:
+
 ```bash
 docker compose up
 ```
@@ -22,6 +24,13 @@ docker compose up
 Site Title - MySite1
 Username - sahilrajput03
 Password - 2rCTcbKWYd*(4IShzz
+```
+
+**Size of wordpress folder:** (Date: 31 March, 2025)
+
+```bash
+du -sh wordpress
+ 79M    wordpress
 ```
 
 **Other Tools to develop wordpress locally:**
