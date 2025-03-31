@@ -54,6 +54,7 @@ add_action('wp_enqueue_scripts', 'custom_enqueue_styles');
 and
 
 ```css
+/* File: wordpress/wp-content/themes/twentytwentyfive/styles-custom1.css */
 .myclass {
   color: red;
   background: yellow;
