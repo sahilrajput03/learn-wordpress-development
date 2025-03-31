@@ -12,13 +12,17 @@
   - `wp-config.php` file has your credentials which are passed form `docker-compose.yml` file. (Sample file - `wp-config-sample.php`)
   - WordPress Version: Note I have set `wordpress:latest` in `docker-compose.yml` file and when I checked wordpress verison from admin panel (in site) I saw version as `6.7.2`
 
-## Running wordpress server:
+## Running wordpress server
 
 ```bash
 docker compose up
 ```
 
-**Info:**
+## Learnings
+
+- When you add custom css code to the website the code is saved to mysql probabaly (TESTED). I tried to find a class defined in custom css in wordpress admin panel and then I tried to search it in wordpress folder in VsCode but couldn't find it.
+
+## Info
 
 ```txt
 Site Title - MySite1
