@@ -59,6 +59,17 @@ if ( ! function_exists( 'twentytwentyfive_enqueue_styles' ) ) :
 endif;
 add_action( 'wp_enqueue_scripts', 'twentytwentyfive_enqueue_styles' );
 
+// Custom Css by Sahil
+function custom_enqueue_styles() {
+		wp_enqueue_style(
+			'custom-style',
+			get_parent_theme_file_uri( 'styles-custom1.css' ),
+			array(),
+			wp_get_theme()->get( 'Version' )
+		);
+}
+add_action('wp_enqueue_scripts', 'custom_enqueue_styles');
+
 // Registers custom block styles.
 if ( ! function_exists( 'twentytwentyfive_block_styles' ) ) :
 	/**
