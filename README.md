@@ -1,6 +1,6 @@
 # Wordpress Development
 
-- Learn WordPress Doc: [Click here](https://docs.google.com/document/d/16GdXBSDFBl1T9A_SJa1ITBGB1VBN0aAQ-VAoBpyEcXM/edit?tab=t.0)
+- **❤️Learn WordPress Doc: [Click here](https://docs.google.com/document/d/16GdXBSDFBl1T9A_SJa1ITBGB1VBN0aAQ-VAoBpyEcXM/edit?tab=t.0)**
 - Source: Setting Up Your Local Development Environment for WordPress: [Click here](https://wordpress.com/blog/2022/11/14/setting-up-your-local-development-environment-for-wordpress/)
 - Todo:
   - You can enable watch mode as its suggested in terminal (bottom) when you run `docker compose up` command to start wordpress server.
