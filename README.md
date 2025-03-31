@@ -3,7 +3,8 @@
 - **❤️Learn WordPress Doc: [Click here](https://docs.google.com/document/d/16GdXBSDFBl1T9A_SJa1ITBGB1VBN0aAQ-VAoBpyEcXM/edit?tab=t.0)**
 - Source: Setting Up Your Local Development Environment for WordPress: [Click here](https://wordpress.com/blog/2022/11/14/setting-up-your-local-development-environment-for-wordpress/)
 - Todo:
-  - You can enable watch mode as its suggested in terminal (bottom) when you run `docker compose up` command to start wordpress server.
+  - Running a Development Copy of WordPress (wordpress.org): [Click here](https://developer.wordpress.org/advanced-administration/before-install/development/)
+  - (?) You can enable watch mode as its suggested in terminal (bottom) when you run `docker compose up` command to start wordpress server.
   - Checkout WordPress Studio: **Github:** [github.com/Automattic/studio](https://github.com/Automattic/studio) (243\*)
     - Dowload and Install Info: [Click here](https://developer.wordpress.com/studio)
     - Meet Studio by WordPress.com—a fast, free way to develop locally with WordPress. Share your local sites with clients or colleagues, sync with production sites, and keep your local development process smooth and simple—with unbreakable infrastructure behind the scenes.
