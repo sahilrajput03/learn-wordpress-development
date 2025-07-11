@@ -9,7 +9,7 @@ docker compose up
 docker compose down
 ```
 
-## ❤️ Adding custom css and custom js in codebase directly
+## ❤️ Adding custom css and custom js with Code Splitting in codebase directly
 
 - **Useful File Links for easier access in VS Code:**
   - PHP Code file: file://./wordpress/wp-content/themes/twentytwentyfive/functions.php
