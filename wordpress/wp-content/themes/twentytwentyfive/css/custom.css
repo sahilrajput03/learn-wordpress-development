@@ -1,0 +1,15 @@
+/* File: ./wordpress/wp-content/themes/twentytwentyfive/styles-custom1.css */
+
+/* Importing css files in WordPress - https://chatgpt.com/c/68717879-a064-8007-a0b5-53bf8d97ab9c */
+@import url("./b.css");
+
+/* & Learn: If below css changes do not update in browser then for ONCE use cmd+shift+r to hard reload page. */
+.class1 {
+  color: white;
+  background: orange;
+}
+
+.class2 {
+  color: white;
+  background: lightcoral;
+}

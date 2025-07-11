@@ -161,7 +161,7 @@ endif;
 function custom_enqueue_styles() {
 		wp_enqueue_style(
 			'custom-style',
-			get_parent_theme_file_uri( 'styles-custom1.css' ),
+			get_parent_theme_file_uri( 'css/custom.css' ),
 			array(),
 			wp_get_theme()->get( 'Version' )
 		);
@@ -181,7 +181,7 @@ function custom_enqueue_scripts() {
 
 	 // ? Add type="module" - This enables the use of `import` keyword in our js
 	 // 		files thus we can do code splitting easily across different files for
-	 // 		easier project management.
+	 // 		easier project management. Src - https://chatgpt.com/c/68717879-a064-8007-a0b5-53bf8d97ab9c
     add_filter('script_loader_tag', function($tag, $handle, $src) {
         if ($handle === 'custom-js') {
             return '<script type="module" src="' . esc_url($src) . '"></script>';
