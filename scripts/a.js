@@ -1,6 +1,7 @@
 // 🚀 Steps to use this script via a HTTP server in your wordpress website [Teste
 //      with my Docker Setup]:
 // 1. Start the server via --- serve -l 8081 --cors
+//      We use `--cors` to enable CORS headers like Access-Control-Allow-Origin: *.
 // 2. To insert this script in your wordpress, simply add WPCode plugin and add
 //    a "Add Your Custom Code (New Snippet)" snippet with following code: 
 //      <script type="module" src="http://localhost:8081/scripts/a.js" > </script>
