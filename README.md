@@ -5,8 +5,11 @@
 ## Usage
 
 - **Usage** `docker compose up`
+
+## ❤️ Adding custom css and custom js in codebase directly
+
 - **Useful File Links for easier access in VS Code:**
   - PHP Code file: file://./wordpress/wp-content/themes/twentytwentyfive/functions.php
-    - We link custom css and custom js file in this file.
+    - We link custom css and custom js file in the end of above file.
   - Custom css file: file://./wordpress/wp-content/themes/twentytwentyfive/styles-custom1.css
   - Custom js file: file://./wordpress/wp-content/themes/twentytwentyfive/js/custom.js

@@ -1,7 +1,9 @@
 /* File: wordpress/wp-content/themes/twentytwentyfive/styles-custom1.css */
+
+/* & Learn: If below css changes do not update in browser then for ONCE use cmd+shift+r to hard reload page. */
 .class1 {
-  color: magenta;
-  background: yellow;
+  color: black;
+  background: orange;
 }
 
 .class2 {
