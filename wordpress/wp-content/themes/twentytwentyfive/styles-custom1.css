@@ -1,5 +1,15 @@
 /* File: wordpress/wp-content/themes/twentytwentyfive/styles-custom1.css */
-.myclass {
-  color: red;
+.class1 {
+  color: magenta;
   background: yellow;
+}
+
+.class2 {
+  color: white;
+  background: lightcoral;
+}
+
+.class3 {
+  color: magenta;
+  background: lightpink;
 }
