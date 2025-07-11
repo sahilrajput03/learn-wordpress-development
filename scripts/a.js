@@ -11,6 +11,6 @@
 import { sayHello } from './helper.js';
 
 // & Learn: If js changes do not update in browser then for ONCE use cmd+shift+r to hard reload page.
-alert("scripts/a.js via HTTPS!");
+// alert("scripts/a.js via HTTPS!");
 
-sayHello();
+// sayHello();
