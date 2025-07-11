@@ -59,7 +59,7 @@ if ( ! function_exists( 'twentytwentyfive_enqueue_styles' ) ) :
 endif;
 add_action( 'wp_enqueue_scripts', 'twentytwentyfive_enqueue_styles' );
 
-// Custom Css by Sahil
+// & Custom Css by Sahil
 function custom_enqueue_styles() {
 		wp_enqueue_style(
 			'custom-style',
@@ -69,6 +69,20 @@ function custom_enqueue_styles() {
 		);
 }
 add_action('wp_enqueue_scripts', 'custom_enqueue_styles');
+
+// & Custom Javascript by Sahil - https://wordpress.com/go/website-building/how-to-properly-add-javascript-to-wordpress-3-top-methods/
+function custom_enqueue_scripts() {
+	// ? SYNTAX of `wp_enqueue_script($handle, $src, $deps, $ver, $args)`
+	// 		? Registers the script if $src provided (does NOT overwrite), and enqueues it.  (src: https://developer.wordpress.org/reference/functions/wp_enqueue_script/)
+	// 1. $handle (String)
+	// 2. $src (String)
+	// 3. $deps = AN ARRAY OF REGISTERED SCRIPT HANDLES THIS SCRIPT DEPENDS ON>
+	// 4. $ver (string|bool|null) - String specifying script version number, if it has one, which is added to the URL as a query string for cache busting purposes. If version is set to false, a version number is automatically added equal to current installed WordPress version. If set to null, no version is added.>
+	// 5. $args = An array of additional script loading strategies.)
+    wp_enqueue_script('custom-js', get_template_directory_uri() . '/js/custom.js', array(), null, true);
+}
+add_action('wp_enqueue_scripts', 'custom_enqueue_scripts');
+
 
 // Registers custom block styles.
 if ( ! function_exists( 'twentytwentyfive_block_styles' ) ) :
