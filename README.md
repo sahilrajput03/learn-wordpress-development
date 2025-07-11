@@ -4,7 +4,10 @@
 
 ## Usage
 
-- **Usage** `docker compose up`
+```bash
+docker compose up
+docker compose down
+```
 
 ## ❤️ Adding custom css and custom js in codebase directly
 
