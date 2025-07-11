@@ -5,6 +5,7 @@
 //    a "Add Your Custom Code (New Snippet)" snippet with following code: 
 //      <script src="http://localhost:8081/scripts/a.js" > </script>
 // 3. Make sure you turn on the toggle on to activate and click on "Update" button.
+// - For production usage - you can make use of files hosted on github.com/myrepo/myfile.js
 
 
 import { sayHello } from './helper.js';
