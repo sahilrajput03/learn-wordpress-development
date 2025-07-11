@@ -178,5 +178,15 @@ function custom_enqueue_scripts() {
 	// 4. $ver (string|bool|null) - String specifying script version number, if it has one, which is added to the URL as a query string for cache busting purposes. If version is set to false, a version number is automatically added equal to current installed WordPress version. If set to null, no version is added.>
 	// 5. $args = An array of additional script loading strategies.)
     wp_enqueue_script('custom-js', get_template_directory_uri() . '/js/custom.js', array(), null, true);
+
+	 // ? Add type="module" - This enables the use of `import` keyword in our js
+	 // 		files thus we can do code splitting easily across different files for
+	 // 		easier project management.
+    add_filter('script_loader_tag', function($tag, $handle, $src) {
+        if ($handle === 'custom-js') {
+            return '<script type="module" src="' . esc_url($src) . '"></script>';
+        }
+        return $tag;
+    }, 10, 3);
 }
 add_action('wp_enqueue_scripts', 'custom_enqueue_scripts');
